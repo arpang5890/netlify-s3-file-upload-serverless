@@ -1,0 +1,42 @@
+{
+  "name": "s3-file-uploader",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "async": "^3.1.0",
+    "aws-sdk": "^2.518.0",
+    "buffer": "^5.4.0",
+    "cuid": "^2.1.6",
+    "netlify-identity-widget": "^1.5.5",
+    "netlify-lambda": "^1.6.3",
+    "node-fetch": "^2.6.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-loader-spinner": "^3.1.2",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build; npm run build:lambda",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:lambda": "netlify-lambda serve functions",
+    "build:lambda": "netlify-lambda build functions"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

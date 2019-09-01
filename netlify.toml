@@ -1,0 +1,5 @@
+[build]
+  functions = "lambda"
+  publish = "build/"
+  Command = "npm run build"
+  environment = { AWS_S3_ACCESS_KEY = "AKIAT5UI2PVVM7Z3YN7T", AWS_S3_SECRET_KEY = "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", AWS_AZ_REGION = "us-east-1", AWS_S3_BUCKET = "netifly-uploads", NETLIFY_ACCESS_CONTROL_ALLOW_ORIGIN = "*" }
