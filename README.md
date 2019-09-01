@@ -20,7 +20,6 @@ Create a bucket on S3 with folliwng cros:
 
 ### IAM setting
 Create user with programmatic access, following is the IAM policy:
-```json
 {
     "Version": "2012-10-17",
     "Statement": [
