@@ -5,6 +5,7 @@
 
 ### S3 configuration
 Create a bucket on S3 with folliwng cros:
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
 <CORSRule>
@@ -19,6 +20,7 @@ Create a bucket on S3 with folliwng cros:
 
 ### IAM setting
 Create user with programmatic access, following is the IAM policy:
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
